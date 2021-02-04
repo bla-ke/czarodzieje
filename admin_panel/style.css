@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
 
 .admin_info
 {
@@ -35,6 +36,8 @@
     height: 188px;
     margin-bottom: 15px;
     background-color: #1f1a2550;
+    outline-offset: 0px;
+    outline: solid 1px #cccccc05;
 }
 
 .admin_img
@@ -44,13 +47,16 @@
     padding: 2px;
     padding: 2px;
     float: left;
+    outline-offset: 0px;
+    outline: solid 1px #cccccc20;
+    margin-left: 1px;
 }
 
 .admin_text_overflow
 {
     overflow-y: auto;
     float: left;
-    width: 321px;
+    width: 320px;
     font-size: 12px;
     height: 110px;
     color: #868686;
@@ -91,10 +97,10 @@
     font-size: 28px;
     color: #777d8b;
     text-shadow: #000 0px 0px 5px; 
-    width: 331px;
+    width: 330px;
     float: left;
     margin-top: 10px;
-    margin-bottom: -5px;
+    margin-bottom: -2px;
 }
 
 .admin_contact
@@ -104,6 +110,6 @@
     font-family: Open Sans;
     line-height: 22px;
     float: left;
-    width: 331px;
+    width: 330px;
     color: #777d8b;
 }
