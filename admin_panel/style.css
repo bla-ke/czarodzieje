@@ -18,7 +18,6 @@
     height: 250px;
     background-size: 100%;
     background-position: 50%;
-    margin-bottom: 10px;
 }
 
 .function_title
@@ -78,7 +77,6 @@
     color: darkgrey;
     text-align: center;
     position: relative;
-    margin-top: -5px;
     margin-bottom: 10px;
     text-shadow: #000 0px 0px 5px;
     font-size: 11px;
@@ -95,6 +93,7 @@
     text-shadow: #000 0px 0px 5px; 
     width: 331px;
     float: left;
+    margin-top: 10px;
     margin-bottom: -5px;
 }
 
