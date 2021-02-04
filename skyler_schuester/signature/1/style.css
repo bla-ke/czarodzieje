@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Dhurjati&display=swap');
+
+/* Code: Skyler Schuester */
+
+.stylA
+{
+    font-family:'Beth Ellen', sans-serif;
+    text-transform:;
+    font-size:15px;
+    text-align:center;
+    margin-bottom:-20px;
+    color:#55595c;
+    letter-spacing:1px;
+}
+
+.stylB
+{
+    font-family:'Dhurjati', sans-serif;
+    text-transform:;
+    font-size:16px;
+    text-align:center;
+    margin-top:-12px;
+    color:#2A5250;
+    letter-spacing:6px;
+    margin-bottom:-7px;
+}    
+
+.stylL
+{
+    font-family:'Dhurjati';
+    text-align:center;
+    color:#55595c!important;
+    font-size:12px;
+    letter-spacing:2px;
+}
