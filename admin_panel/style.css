@@ -70,17 +70,19 @@
 .admin_atitle_margin
 {
     border-top: 1px solid #cccccc20;
+    border-bottom: 1px solid #cccccc20;
+    width: 75%;
     width: 50%;
     margin: auto;
     margin-bottom: 10px;
     position: relative;
+    padding: 2px;
     margin-top: -5px;
 }
 
 .admin_desc
 {
-    font-style: italic;
-    color: darkgrey;
+    color: #868686;
     text-align: center;
     position: relative;
     margin-bottom: 10px;
