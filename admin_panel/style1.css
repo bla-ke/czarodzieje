@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+body
+{
+    background-color: #000;
+}
+
+.mutab
+{
+    background-color: #0b0b11;
+    border: solid 5px #171824;
+    width: 450px;
+    padding: 8px;
+    font-family: Century Gothic;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6a6f7f;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "av nazwa . ."
+      "av opis . ."
+      "av kontakt . ."
+      ". . . .";
+    margin-bottom: 10px;
+}
+
+.mutab .muimg
+{
+    width: 100px;
+    margin-left: auto;
+    grid-area: av;
+}
+
+.mu_name
+{
+    font-family: Euphoria Script;
+    text-align: center;
+    font-size: 28px;
+    color: #777d8b;
+    text-shadow: #000 0px 0px 5px; 
+    margin-top: 4px;
+    grid-area: nazwa;
+}
+
+.mutab .mu_desc
+{
+    font-size: 13px;
+    height: 110px;
+    color: #868686;
+    text-align: justify;
+    padding: 5px;
+    font-family: Open Sans;
+    line-height: 16px;
+    margin: auto;
+    grid-area: opis;
+    width: 100%;
+}
+
+.mu_contact
+{
+    grid-area: kontakt;
+    text-align: center;
+}
