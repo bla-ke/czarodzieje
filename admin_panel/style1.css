@@ -47,6 +47,7 @@
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 4fr;
     gap: 0px 0px;
     grid-template-areas:
       "av nazwa . ."
@@ -81,7 +82,7 @@
     height: auto;
     color: #78797a;
     text-align: justify;
-    padding: 10px;
+    padding: 0px 10px;
     line-height: 16px;
     margin: 0;
     grid-area: opis;
