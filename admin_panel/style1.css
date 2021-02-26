@@ -34,6 +34,36 @@
     grid-area: av;
 }
 
+.mgtab
+{
+    background-color: #0b0b11;
+    border: solid 5px #171824;
+    width: 450px;
+    padding: 8px;
+    font-family: Century Gothic;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6a6f7f;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "av nazwa . ."
+      "av funkcja . ."
+      "av opis . ."
+      "av kontakt . ."
+      ". . . .";
+    margin-bottom: 10px;
+}
+
+.mgtab .mgimg
+{
+    width: 100px;
+    margin-left: auto;
+    grid-area: av;
+}
+
 .mu_name
 {
     font-family: Euphoria Script;
