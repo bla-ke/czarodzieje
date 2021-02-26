@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-body
-{
-    background-color: #000;
-}
-
 .mutab
 {
     background-color: #0b0b11;
@@ -52,12 +47,11 @@ body
 
 .mutab .mu_desc
 {
-    font-size: 13px;
+    font-size: 12px;
     height: auto;
     color: #78797a;
     text-align: justify;
     padding: 5px;
-    font-family: Open Sans;
     line-height: 16px;
     margin: 0;
     grid-area: opis;
