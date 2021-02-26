@@ -38,7 +38,7 @@
 {
     background-color: #0b0b11;
     border: solid 5px #171824;
-    width: 450px;
+    width: 325px;
     padding: 8px;
     font-family: Century Gothic;
     font-size: 12px;
@@ -81,11 +81,11 @@
     height: auto;
     color: #78797a;
     text-align: justify;
-    padding: 5px;
+    padding: 10px;
     line-height: 16px;
     margin: 0;
     grid-area: opis;
-    width: 100%;
+    width: auto;
 }
 
 .mu_contact
