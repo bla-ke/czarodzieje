@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 body
 {
     background-color: #000;
@@ -16,19 +18,23 @@ body
     color: #6a6f7f;
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr 7fr;
     gap: 0px 0px;
     grid-template-areas:
-      "av nazwa . ."
-      "av opis . ."
-      "av kontakt . ."
-      ". . . .";
+        "av nazwa . ."
+        "av funkcja . ."
+        "av ikony . ."
+        "av opis . ."
+        "av kontakt . ."
+        ". . . .";
     margin-bottom: 10px;
+    height: 240px;
 }
 
 .mutab .muimg
 {
-    width: 100px;
+    width: 150px;
     margin-left: auto;
     grid-area: av;
 }
@@ -47,13 +53,13 @@ body
 .mutab .mu_desc
 {
     font-size: 13px;
-    height: 110px;
-    color: #868686;
+    height: auto;
+    color: #78797a;
     text-align: justify;
     padding: 5px;
     font-family: Open Sans;
     line-height: 16px;
-    margin: auto;
+    margin: 0;
     grid-area: opis;
     width: 100%;
 }
@@ -62,4 +68,19 @@ body
 {
     grid-area: kontakt;
     text-align: center;
+}
+
+.mu_func
+{
+    grid-area: funkcja;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 14px;
+}
+
+.mu_ic
+{
+    grid-area: ikony;
+    margin: auto;
+    margin-top: -8px;
 }
