@@ -32,6 +32,7 @@
     width: 150px;
     margin-left: auto;
     grid-area: av;
+    max-width: none;
 }
 
 .mgtab
@@ -63,6 +64,7 @@
     width: 100px;
     margin-left: auto;
     grid-area: av;
+    max-width: none;
 }
 
 .mu_name
