@@ -1,0 +1,41 @@
+
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans+Condensed:wght@300&family=Tangerine&display=swap";
+
+.timeline
+{
+    width:100%;
+    height: auto;
+    margin: auto;
+    min-height: 300px;
+}
+
+.timeline_border
+{
+    width:1px;
+    margin:auto;
+    height: 100%;
+    border:solid 1px #f0f8ff;
+    float:left;
+}
+
+.timeline_info, .timeline_day
+{
+    color: #f0f8ff;
+    float: left;
+    padding: 15px;
+    width: 300px;
+    font-family: Noto Sans;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.timeline_day
+{
+    padding: 5px 20px 0px;
+}
+
+.timeline_title
+{
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+}
