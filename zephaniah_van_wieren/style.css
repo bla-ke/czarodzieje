@@ -10,7 +10,7 @@
 
 .lycanthropy_background {
     width: 500px;
-    height: 200px;
+    height: 220px;
     background-image: url(https://i.imgur.com/2w4B3qt.jpg);
     background-size: 100%;
     box-shadow: #000 0px 0px 5px;
@@ -25,5 +25,14 @@
     font-family: "Redressed";
     text-shadow: #000 1px 1px;
     font-size: 40px;
-    color: #afafaf;
+    color: #afafaf; 
+    text-align: left;
+    margin-left: 20px;
+}
+
+.lycanthropy_text
+{
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
 }
