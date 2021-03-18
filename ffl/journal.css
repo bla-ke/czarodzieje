@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans+Condensed:wght@300&family=Tangerine&display=swap';
+
+.journal_main {
+    width: 430px;
+    min-height: 525px;
+    background-color: #1f1f1f90;
+    background-image: url(https://i.imgur.com/xyXlxYt.png);
+    border: 2px solid #cccccc10;
+    border-radius: 3px
+}
+
+.journal_title {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    width: 430px;
+    font-size: 50px;
+    font-family: Tangerine;
+    text-shadow: #000 0 0 3px, 0 0 5px #000
+}
+
+.journal_background {
+    width: 430px;
+    height: 200px;
+    background-image: url(https://64.media.tumblr.com/034c331431ea0c32a0c2766845a8441b/tumblr_inline_pfnjyfXBzz1rifr4k_1280.gif);
+    background-size: 100%;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: 15px
+}
+
+.journal {
+    width: 430px
+}
+
+.journal_text {
+    width: 400px;
+    min-height: 140px;
+    padding: 5px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f0f8ff;
+    background-color: #27272a;
+    font-family: noto sans;
+    font-size: 11px;
+    line-height: 16px
+}
+
+.journal_text_title {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: -15px;
+    font-size: 30px;
+    font-family: Tangerine;
+    text-shadow: #000 0 0 3px, 0 0 5px #000
+}
+
+.journal_text_overflow {
+    overflow-y: auto;
+    width: 400px;
+    height: 140px;
+    padding: 5px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f0f8ff;
+    background-color: #27272a;
+    font-family: noto sans;
+    font-size: 11px;
+    line-height: 16px
+}
+
+.journal_text_overflow a,
+.journal_text a {
+    color: #a5b7aa
+}
+
+/* (c) Felinus Faolan Lowell */

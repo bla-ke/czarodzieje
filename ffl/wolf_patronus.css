@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400&family=PT+Serif&display=swap');
+
+.wolf_patronus {
+    background-image: url(https://i.imgur.com/QUuTsma.png);
+    background-size: 100%;
+    width: 575px;
+    height: 400px;
+    position: relative;
+}
+
+.lineart_copyright {
+    position: absolute;
+    top: 360px;
+    left: 440px;
+    color: #6d7478;
+    font-size: 8px;
+}
+
+.text_patronus {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    color: #344c57;
+    width: 360px;
+    height: 260px;
+    overflow: auto;
+    font-family: PT Serif;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.text_patronus_margin {
+    margin-right: 5px;
+}
+
+.title_patronus {
+    font-size: 25px;
+    font-family: Grenze Gotisch;
+}
+
+/* (c) Felinus Faolan Lowell */
