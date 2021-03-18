@@ -28,11 +28,11 @@
     color: #afafaf; 
     text-align: left;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .lycanthropy_text
 {
-    width: 500px;
     padding: 10px;
     text-align: justify;
 }
