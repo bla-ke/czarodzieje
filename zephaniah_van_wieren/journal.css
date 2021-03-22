@@ -54,3 +54,8 @@
     overflow-y: auto;
     height: 180px;
 }
+
+.journal_zvw_text_overflow a,
+.journal_zvw_text a {
+    color: #a9a9a9;
+}
