@@ -44,22 +44,23 @@ div.signature_picture_desc:hover {
 }
 
 .signature_desc {
-    width: 251px;
+    width: 226px;
     color: #acacad;
     font-family: "exo 2";
     font-size: 10px;
-    margin-top: 2px;
-    text-align: justify;
+    margin-top: 7px;
+    text-align: center;
     line-height: 10px;
 }
 
 .signature_desc_fancyfont {
     font-family: Homemade Apple;
-    font-size: 14px;
+    font-size: 16px;
     color: #8f6d29;
     position: relative;
     text-align: justify;
     line-height: 3px;
+    text-shadow: #000 0px 0px 3px;
 }
 
 .horizontal_line {
