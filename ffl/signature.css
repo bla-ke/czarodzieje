@@ -4,11 +4,12 @@
     height: 70px;
     width: 165px;
     padding: 0;
+    opacity: 0.9;
     transition: 1s;
     display: inline-block;
-    background-image: url(https://i.imgur.com/aIJxtWc.gif);
+    background-image: url(https://64.media.tumblr.com/2e88ce1…/tumblr_ozzl30gsRE1uyzb66o1_400.gifv);
     background-size: 100%;
-    filter: saturate(0.7) contrast(1.20) grayscale(0.1) hue-rotate(-15deg);
+    filter: saturate(0.7) contrast(1.20) grayscale(0.30) hue-rotate(-15deg);
     border-top: 2px solid #2a5250;
 }
 
