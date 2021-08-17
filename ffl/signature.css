@@ -2,7 +2,7 @@
 
 .signature_picture {
     height: 70px;
-    width: 165px;
+    width: 182px;
     padding: 0;
     opacity: 0.9;
     transition: 1s;
@@ -46,7 +46,7 @@ div.signature_picture_desc:hover {
 } */
 
 .signature_desc {
-    width: 162px;
+    width: 182px;
     color: #acacad;
     font-family: "exo 2";
     font-size: 10px;
@@ -62,9 +62,9 @@ div.signature_picture_desc:hover {
     position: relative;
     text-align: justify;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    line-height: 3px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    line-height: 2px;
 }
 
 .horizontal_line {
