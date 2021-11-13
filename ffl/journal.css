@@ -1,10 +1,10 @@
-@import 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans+Condensed:wght@300&family=Tangerine&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Cookie&display=swap');
 
 .journal_main {
     width: 430px;
     min-height: 525px;
     background-color: #1f1f1f90;
-    background-image: url(https://i.imgur.com/xyXlxYt.png);
+    background-image: url(https://i.imgur.com/JKsGJys.png);
     border: 2px solid #cccccc10;
     border-radius: 3px
 }
@@ -41,7 +41,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
     color: #f0f8ff;
-    background-color: #27272a;
+    background-color: #26202d;
     font-family: noto sans;
     font-size: 11px;
     line-height: 16px
@@ -68,7 +68,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
     color: #f0f8ff;
-    background-color: #27272a;
+    background-color: #26202d;
     font-family: noto sans;
     font-size: 11px;
     line-height: 16px
@@ -76,7 +76,17 @@
 
 .journal_text_overflow a,
 .journal_text a {
-    color: #a5b7aa
+    color: #b0a5b7
+}
+
+.tytkam span
+{
+    background-color: #606060;
+}
+
+.tytkam
+{
+    border-color: #606060;
 }
 
 /* (c) Felinus Faolan Lowell */
