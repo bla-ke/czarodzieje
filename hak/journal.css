@@ -76,12 +76,22 @@
 
 .journal_text_overflow a,
 .journal_text a {
-    color: #a5b7aa
+    color: #98aebb
 }
 
 zgs
 {
     color: #6393b3fc;
+}
+
+.tytkam span
+{
+    background-color: #606060;
+}
+
+.tytkam
+{
+    border-color: #606060;
 }
 
 /* (c) Felinus Faolan Lowell */
