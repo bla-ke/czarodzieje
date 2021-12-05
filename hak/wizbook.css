@@ -1,7 +1,8 @@
 tag
 {
-    background-color: #1d5476;
-    color: #f5f5f5
+    background-color: #20618A;
+    color: #f5f5f5;
+    text-shadow: 0px 0px 3px black;
 }
 
 tag a:hover, tag a:link, tag a:visited
@@ -11,7 +12,7 @@ tag a:hover, tag a:link, tag a:visited
 
 .wizi2, .wizi1
 {
-    outline: 5px solid #1d5476;
+    outline: 5px solid #20618A;
     border: 1px solid #ebebeb;
 }
 
