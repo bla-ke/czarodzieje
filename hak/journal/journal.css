@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Zeyada&display=swap');
 
+:root
+{
+    --journal-width: 430px;
+    --journal-text-width: 400px;
+    --journal-text-padding: 5px;
+    --journal-text-background-color: #1e2833;
+    --journal-text-font-family: 'Noto Sans';
+    --journal-title-font-family: 'Zeyada';
+    --journal-tytkam-background-color: #606060;
+    --journal-title-text-shadow: #000 0 0 3px, 0 0 5px #000;
+    --journal-title-color: #fff;
+    --journal-text-color: #f0f8ff;
+}
+
 .journal_main {
-    width: 430px;
+    width: var(--journal-width);
     min-height: 525px;
     background-color: #1f1f1f90;
     background-image: url(https://i.imgur.com/UvYFkTo.png);
@@ -11,16 +25,16 @@
 
 .journal_title {
     position: relative;
-    color: #fff;
+    color: var(--journal-title-color);;
     text-align: center;
-    width: 430px;
+    width: var(--journal-width);
     font-size: 50px;
-    font-family: Zeyada;
-    text-shadow: #000 0 0 3px, 0 0 5px #000
+    font-family: var(--journal-title-font-family);
+    text-shadow: var(--journal-title-text-shadow);
 }
 
 .journal_background {
-    width: 430px;
+    width: var(--journal-width);
     height: 200px;
     background-image: url();
     background-size: 100%;
@@ -34,53 +48,53 @@
     margin-bottom: 0px;
     background-position: 20% 60%;
     border-top: 1px solid #cccccc10;
-    width: 430px;
+    width: var(--journal-width);
     background-size: 100%;
     border-radius: 0 0 3px 3px;
 }
 
 .journal {
-    width: 430px
+    width: var(--journal-width);
 }
 
 .journal_text {
-    width: 400px;
+    width: var(--journal-text-width);
     min-height: 140px;
-    padding: 5px;
+    padding: var(--journal-text-padding);
     text-align: justify;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #f0f8ff;
-    background-color: #1e2833;
-    font-family: noto sans;
+    color: var(--journal-text-color);
+    background-color: var(--journal-text-background-color);
+    font-family: var(--journal-text-font-family);
     font-size: 11px;
     line-height: 16px
 }
 
 .journal_text_title {
     position: relative;
-    color: #fff;
+    color: var(--journal-title-color);;
     text-align: left;
     margin-left: 10px;
     margin-bottom: -15px;
     font-size: 30px;
-    font-family: Zeyada;
-    text-shadow: #000 0 0 3px, 0 0 5px #000
+    font-family: var(--journal-title-font-family);
+    text-shadow: var(--journal-title-text-shadow);
 }
 
 .journal_text_overflow {
     overflow-y: auto;
-    width: 400px;
+    width: var(--journal-text-width);
     height: 140px;
-    padding: 5px;
+    padding: var(--journal-text-padding);
     text-align: justify;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #f0f8ff;
-    background-color: #1e2833;
-    font-family: noto sans;
+    color: var(--journal-text-color);
+    background-color: var(--journal-text-background-color);
+    font-family: var(--journal-text-font-family);
     font-size: 11px;
     line-height: 16px
 }
@@ -92,8 +106,8 @@
     line-height: 25px;
     background-color: #202f3b;
     text-transform: lowercase;
-    font-family: noto sans;
-    color: #f0f8fff0;
+    font-family: var(--journal-text-font-family);
+    color: var(--journal-text-color);
     font-size: 12px;
     margin-top: 1px;
     transition: 1s;
@@ -114,11 +128,11 @@ zgs {
 }
 
 .tytkam span {
-    background-color: #606060;
+    background-color: var(--journal-tytkam-background-color);
 }
 
 .tytkam {
-    border-color: #606060;
+    border-color: var(--journal-tytkam-background-color);
 }
 
 /* (c) Felinus Faolan Lowell */
