@@ -25,7 +25,7 @@
 
 .journal_title {
     position: relative;
-    color: var(--journal-title-color);;
+    color: var(--journal-title-color);
     text-align: center;
     width: var(--journal-width);
     font-size: 50px;
@@ -74,7 +74,7 @@
 
 .journal_text_title {
     position: relative;
-    color: var(--journal-title-color);;
+    color: var(--journal-title-color);
     text-align: left;
     margin-left: 10px;
     margin-bottom: -15px;
