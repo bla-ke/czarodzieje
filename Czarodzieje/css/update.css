@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&family=Zeyada&display=swap');
+
+td.avatar-mini
+{
+    float:left;
+}
+td.avatar-mini strong
+{
+    padding-left: 5px;
+}
+td.avatar-mini img
+{
+    width: 60px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: #000 0px 0px 2px;
+}
+#memberlist td
+{
+    padding: 5px 2px;
+    text-align: left;
+}
+#memberlist th
+{
+    text-align: left;
+    text-shadow: none;
+    color: #6b5037;
+    font-family: verdana;
+}
+
+form .panel .inner h2
+{
+    color:#6b5037;
+}
+
+#memberlist tr td:nth-child(3)
+{
+    display:none;
+}
+
+#memberlist th.interests
+{
+    display: none;
+}
+#memberlist th.posts
+{
+    text-align: left!important;
+}
+#memberlist th.website
+{
+    text-align: center;
+}
+.span-tab a div
+{
+    color: #6b5037!important;
+}
+a.forumlink div
+{
+    visibility: hidden;
+}
+
+.szukamtlo_small
+{
+    background-color: #1a1b25;
+    width: 400px;
+    padding: 5px;
+    box-shadow: 0 0 4px #000;
+}
+
+.szukamtlo_small a, .szukamtlo a
+{
+    color: #777d8b;
+}
+
+.szukamtlo_small .spistyt
+{
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.szukamtlo_small .infbaz
+{
+    width: 360px;
+}
+
+.szukamtlo_small .tytkam
+{
+    width: 350px;
+}
+
+.szukamtlo_small .gora_obrazek
+{
+    width: 100%;
+    height: 150px;
+    background-position: 50% 30%;
+}
+
+.szukamtlo_small .dol_obrazek
+{
+    width: 100%;
+    height: 75px;
+    background-position: 50% 95%;
+}
